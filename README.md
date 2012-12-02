@@ -28,8 +28,8 @@ This version supports touch control events raised by iOS and Android devices. To
 	invertForTouch: true
 
 ###Border
-If you object almost fill your image then you may want to have a border region that sets the zoom position to be on the edge, preventing the use from having to move their mouse or finger to the very edge pixel to see the edge of the image.
+If you object almost fills your image then you may want to have a border region that sets the zoom position to be on the edge, preventing the use from having to move their mouse or finger to the very edge pixel to see the edge of the image.
 
 	borderPercent: 20
 
-Note that this is the percent overshoot to add, so 20% would be to make the image region 140% as large, so taking the inverse it would create a border 100 - (100/140) / 2 = 14% or the final image.   
+Note that this is the percent overshoot to add, so 20% would be to make the image region 140% as large. Taking the inverse it would create a border 100 - (100/140) / 2 = 14% of the final image.   
